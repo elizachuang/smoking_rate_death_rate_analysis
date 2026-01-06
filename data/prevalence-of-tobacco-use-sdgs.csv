@@ -1,0 +1,176 @@
+country,code,prevalence_rate
+Afghanistan,AFG,22.7
+Algeria,DZA,21.2
+Andorra,AND,36.3
+Argentina,ARG,23.8
+Armenia,ARM,24.9
+Asia (UN),,23.8
+Australia,AUS,13.1
+Australia and New Zealand (UN SDG),,12.8
+Austria,AUT,24.9
+Azerbaijan,AZE,19.6
+Bahamas,BHS,11.3
+Bahrain,BHR,15
+Bangladesh,BGD,32.9
+Barbados,BRB,7
+Belarus,BLR,30.1
+Belgium,BEL,26.7
+Belize,BLZ,8.8
+Benin,BEN,6.3
+Bhutan,BTN,18.7
+Bolivia,BOL,12.4
+Bosnia and Herzegovina,BIH,36.2
+Botswana,BWA,18.7
+Brazil,BRA,12.2
+Brunei,BRN,16.4
+Bulgaria,BGR,39.5
+Burkina Faso,BFA,14.3
+Burundi,BDI,11.2
+Cambodia,KHM,17.2
+Cameroon,CMR,6.5
+Canada,CAN,12
+Cape Verde,CPV,11
+Chad,TCD,7.4
+Chile,CHL,28.7
+China,CHN,23.4
+Colombia,COL,8.2
+Comoros,COM,17.2
+Congo,COG,15.4
+Cook Islands,COK,27
+Costa Rica,CRI,8.9
+Cote d'Ivoire,CIV,8.8
+Croatia,HRV,37
+Cuba,CUB,17.4
+Cyprus,CYP,35.6
+Czechia,CZE,29.9
+Democratic Republic of Congo,COD,12.2
+Denmark,DNK,16.2
+Dominican Republic,DOM,10.5
+East Timor,TLS,38.7
+Ecuador,ECU,10.2
+Egypt,EGY,24.7
+El Salvador,SLV,8.9
+Estonia,EST,28.3
+Eswatini,SWZ,9.5
+Ethiopia,ETH,5.2
+Europe (UN),,25.5
+Fiji,FJI,27.6
+Finland,FIN,22.3
+France,FRA,34.6
+Gambia,GMB,10.5
+Georgia,GEO,31.8
+Germany,DEU,21.3
+Ghana,GHA,3.4
+Greece,GRC,32.8
+Guatemala,GTM,11.9
+Guinea-Bissau,GNB,8.2
+Guyana,GUY,11.1
+Haiti,HTI,8.1
+Honduras,HND,12.3
+Hungary,HUN,32.2
+Iceland,ISL,9.4
+India,IND,24.3
+Indonesia,IDN,38.2
+Iran,IRN,13.3
+Iraq,IRQ,19.2
+Ireland,IRL,19.3
+Israel,ISR,20.4
+Italy,ITA,22.4
+Jamaica,JAM,9.7
+Japan,JPN,19.2
+Jordan,JOR,35.6
+Kazakhstan,KAZ,22.2
+Kenya,KEN,10.7
+Kiribati,KIR,39.7
+Kuwait,KWT,19.9
+Kyrgyzstan,KGZ,27.3
+Laos,LAO,27.2
+Latin America and the Caribbean (UN SDG),,13.1
+Latin America and the Caribbean (UN),,13.1
+Latvia,LVA,33.9
+Least Developed Countries (LDCs),,18.7
+Lebanon,LBN,34.3
+Lesotho,LSO,24.3
+Liberia,LBR,8.2
+Lithuania,LTU,31.4
+Luxembourg,LUX,23
+Madagascar,MDG,26.8
+Malawi,MWI,9.7
+Malaysia,MYS,22
+Maldives,MDV,26.3
+Mali,MLI,8
+Malta,MLT,24.7
+Marshall Islands,MHL,29.8
+Mauritania,MRT,9.5
+Mauritius,MUS,20.9
+Mexico,MEX,14.9
+Moldova,MDA,29.7
+Mongolia,MNG,29.5
+Montenegro,MNE,32
+Morocco,MAR,13
+Myanmar,MMR,44.4
+Namibia,NAM,14.1
+Nauru,NRU,48.3
+Nepal,NPL,28.3
+Netherlands,NLD,21.3
+New Zealand,NZL,12.2
+Niger,NER,7.7
+Nigeria,NGA,3.3
+North Korea,PRK,16.5
+Northern America (UN),,22.9
+Norway,NOR,14.2
+Oceania (UN),,19.6
+Oman,OMN,8.4
+Pakistan,PAK,18.9
+Palau,PLW,17.3
+Panama,PAN,5.2
+Papua New Guinea,PNG,39.6
+Paraguay,PRY,10.7
+Peru,PER,7.1
+Philippines,PHL,20.4
+Poland,POL,23.6
+Portugal,PRT,25.6
+Qatar,QAT,12.5
+Romania,ROU,30
+Russia,RUS,29.2
+Rwanda,RWA,14.3
+Saint Lucia,LCA,13.8
+Samoa,WSM,22.5
+Sao Tome and Principe,STP,7.8
+Saudi Arabia,SAU,14.9
+Senegal,SEN,6.5
+Serbia,SRB,39.5
+Seychelles,SYC,20.2
+Sierra Leone,SLE,12.9
+Singapore,SGP,16.4
+Slovakia,SVK,32.4
+Slovenia,SVN,20.1
+Small Island Developing States (SIDS),,17.4
+Solomon Islands,SLB,36.9
+South Africa,ZAF,20.7
+South Korea,KOR,20
+Spain,ESP,28.4
+Sri Lanka,LKA,19.5
+Sub-Saharan Africa (UN SDG),,8.8
+Sweden,SWE,22.7
+Switzerland,CHE,25.5
+Tanzania,TZA,9.3
+Thailand,THA,19.2
+Togo,TGO,6.4
+Tonga,TON,31.3
+Tunisia,TUN,20.5
+Turkey,TUR,30.5
+Turkmenistan,TKM,5.6
+Tuvalu,TUV,33.7
+Uganda,UGA,7.5
+Ukraine,UKR,24.9
+United Arab Emirates,ARE,9
+United Kingdom,GBR,14.2
+United States,USA,24.3
+Uruguay,URY,20.5
+Uzbekistan,UZB,16.7
+Vietnam,VNM,22.5
+World,OWID_WRL,20.9
+Yemen,YEM,21.4
+Zambia,ZMB,14.6
+Zimbabwe,ZWE,11.3
