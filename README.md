@@ -1,5 +1,5 @@
 # 🌍 Global Smoking Prevalence & Mortality Impact Analysis
-<img width="auto" height="auto" alt="image" src="https://github.com/user-attachments/assets/2b706c27-453f-4129-bc6e-4e15fe2d8ca1" />
+<img width="auto" height="auto" alt="An infographic-style banner with a minimalist aesthetic, split diagonally into two shades of light beige. In the center, a simple illustration shows a single lit cigarette resting at an angle, with a thin wisp of smoke rising from the tip. Above the cigarette, the word SMOKING. is written in large, bold, dark blue serif font. Below the cigarette, the subtitle reads Prevalence & Death Rate followed by smaller text: Uncovering the Highest Mortality Rates, Prevalence Hotspots, and Statistical Red Flags Across Nations. Color Palette: Minimalist, high-contrast cream and dark blue. Imagery: Central focal point of a smoking cigarette.Main Text: SMOKING.Context: Clearly defines the topic as a global statistical report on mortality and prevalence." src="https://github.com/user-attachments/assets/2b706c27-453f-4129-bc6e-4e15fe2d8ca1" />
 
 ## 📌 Research Question
 **Which country has the highest smoking prevalence, and which country has the deadliest outcomes for smokers?**
@@ -140,6 +140,10 @@ These countries likely benefit from:
 - Mortality impact highlights hidden health inequities
 - Countries with limited healthcare access often experience higher death rates per smoker
 - Policy, prevention, and healthcare infrastructure matter as much as smoking behavior
+
+<img width="250" height="auto" alt="A data visualization showing Turkmenistan as a major outlier. The chart compares a low smoking prevalence rate against a smoking-related death rate that is four times the global average, suggesting a statistical anomaly or severe health crisis" src="https://github.com/user-attachments/assets/8e2ad00a-15b2-4448-9f82-c863447bf971" />
+<img width="250" height="auto" alt="Kiribati with the highest cigarette-related death rate per 100,000 people." src="https://github.com/user-attachments/assets/5e19dcec-3a31-4124-a9f7-9228f06a102d" />
+<img width="250" height="auto" alt="Nauru with the world's highest smoking prevalence rate, affecting nearly half the population." src="https://github.com/user-attachments/assets/8c774bf9-2ba8-47fe-b2ef-44b4cc643b92" />
 
 ---
 
