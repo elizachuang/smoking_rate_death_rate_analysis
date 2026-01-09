@@ -1,4 +1,5 @@
 # 🌍 Global Smoking Prevalence & Mortality Impact Analysis
+<img width="auto" height="auto" alt="image" src="https://github.com/user-attachments/assets/2b706c27-453f-4129-bc6e-4e15fe2d8ca1" />
 
 ## 📌 Research Question
 **Which country has the highest smoking prevalence, and which country has the deadliest outcomes for smokers?**
