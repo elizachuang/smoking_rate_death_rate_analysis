@@ -1,4 +1,4 @@
-# 🌍 Global Smoking Prevalence & Mortality Impact Analysis
+# Global Smoking Prevalence & Mortality Impact Analysis
 <img width="auto" height="auto" alt="An infographic-style banner with a minimalist aesthetic, split diagonally into two shades of light beige. In the center, a simple illustration shows a single lit cigarette resting at an angle, with a thin wisp of smoke rising from the tip. Above the cigarette, the word SMOKING. is written in large, bold, dark blue serif font. Below the cigarette, the subtitle reads Prevalence & Death Rate followed by smaller text: Uncovering the Highest Mortality Rates, Prevalence Hotspots, and Statistical Red Flags Across Nations. Color Palette: Minimalist, high-contrast cream and dark blue. Imagery: Central focal point of a smoking cigarette.Main Text: SMOKING.Context: Clearly defines the topic as a global statistical report on mortality and prevalence." src="https://github.com/user-attachments/assets/2b706c27-453f-4129-bc6e-4e15fe2d8ca1" />
 
 ## 📌 Research Question
