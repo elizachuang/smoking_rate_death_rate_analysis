@@ -43,6 +43,13 @@ Both datasets are joined using the **country code**.
 ### 1. Countries with the Highest Smoking-Related Death Rates
 This query identifies which countries experience the highest **smoking-related death rates**.
 
+```
+SELECT de.country, de.death_rate
+FROM cigarette_death de
+WHERE de.death_rate IS NOT NULL
+ORDER BY de.death_rate DESC;
+```
+
 **Key finding:**
 - **Kiribati** has the highest smoking-related death rate at **223.4 deaths per 100,000**
 - Other high-ranking countries include **Nauru, Lesotho, Solomon Islands, and Micronesia**
@@ -53,7 +60,12 @@ This highlights regions where smoking leads to especially severe health outcomes
 
 ### 2. Countries with the Highest Smoking Prevalence
 Countries were ranked by **smoking prevalence (% of adults who smoke)**.
-
+```
+SELECT sp.country, sp.prevalence_rate
+FROM smoking_prevalence sp
+WHERE sp.prevalence_rate IS NOT NULL
+ORDER BY sp.prevalence_rate DESC;
+```
 **Key finding:**
 - **Nauru** has the highest smoking prevalence at **48.3%**
 - Followed by **Myanmar (44.4%)**, **Kiribati (39.7%)**, and **Papua New Guinea (39.6%)**
@@ -75,6 +87,19 @@ Mortality Impact Ratio = death_rate / prevalence_rate
 
 ### 3. Countries Where Smoking Is Most Deadly per Smoker
 
+
+```
+select de.country,
+de.death_rate as death_per_100k,
+sp.prevalence_rate as prevalence_rate,
+round(de.death_rate / sp.prevalence_rate, 2) as Mortality_Impact_Ratio
+from  cigarette_death de
+left join smoking_prevalence sp
+on de.code = sp.code 
+where sp.prevalence_rate is not NULL
+order by Mortality_Impact_Ratio desc;
+```
+
 **Top countries by Mortality Impact Ratio:**
 
 | Country | Mortality Impact Ratio |
@@ -92,6 +117,22 @@ These countries tend to have **lower smoking prevalence but extremely high morta
 ## Mortality Impact Classification
 
 Countries were categorized based on their Mortality Impact Ratio:
+```
+select de.country,
+de.death_rate as death_per_100k,
+sp.prevalence_rate as prevalence_rate,
+round(de.death_rate / sp.prevalence_rate, 2) as Mortality_Impact_Ratio,
+case 
+	when (de.death_rate / sp.prevalence_rate) > 9 then 'Extremly high'
+	when (de.death_rate / sp.prevalence_rate) > 6 then 'High'
+	when (de.death_rate / sp.prevalence_rate) between 3 and 6 then 'Moderate'
+	else 'Low' end as deadly_impact
+from  cigarette_death de
+left join smoking_prevalence sp
+on de.code = sp.code 
+where sp.prevalence_rate is not NULL
+order by Mortality_Impact_Ratio desc;
+```
 
 | Category | Definition |
 |-------|-----------|
@@ -111,11 +152,30 @@ World Average = 3.23
 
 ### Interpretation:
 - **Below 3.23** → Better-than-average health outcomes  
-- **Above 3.23** → Worse-than-average outcomes or a legacy smoking burden  
+- **Above 3.23** → Worse-than-average outcomes or a legacy smoking burden
+
+```
+SELECT ROUND(AVG(de.death_rate / sp.prevalence_rate), 2) as world_mortality_average
+from  cigarette_death de
+left join smoking_prevalence sp
+on de.code = sp.code 
+where sp.prevalence_rate is not null;
+```
 
 ---
 
 ## Countries with Better-Than-Average Outcomes
+
+```
+SELECT de.country, 
+round(de.death_rate / sp.prevalence_rate, 2) as Mortality_Impact_Ratio
+from  cigarette_death de
+left join smoking_prevalence sp
+on de.code = sp.code 
+where sp.prevalence_rate is not null
+and round(de.death_rate / sp.prevalence_rate, 2)  <3.23
+ORDER BY mortality_impact_ratio asc;
+```
 
 Countries with mortality impact **below the global average** include:
 
